@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.story{
+    display:block;
+    margin-top: 100px;
+  }
+  
+  .story .story-img {
+      height: 55px;
+      width: 55px;
+      border: 2px solid #c62f91;
+      border-radius: 100%;
+      display: inline-block;
+      margin: 0 5px;
+  }
+  
+  .story img {
+      height: 100%;
+      width: 100%;
+      border-radius: 100%;
+      border: 2px solid #fff;
+  }
+.card-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.post {
+	margin: 30px 0px;
+}
+.post .buttons {
+	margin: 10px 0px;
+}
+
+.post .buttons i {
+	font-size: 1.5rem;
+	margin: 10px;
+	cursor: pointer;
+}
+.card-header i {
+	font-size: 1.5rem !important;
+}
+
+.post .buttons i.liked {
+	color: #ed4956;
+}
